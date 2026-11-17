@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fable, Opus, Sonnet or Haiku? How not to overpay for AI without losing quality — Zakhar Garan</title>
+<meta name="description" content="Zakhar Garan on which Claude model to pick for which task, and how to combine models in your workflow.">
+<link rel="canonical" href="https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/">
+<link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/">
+<link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/">
+<link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fable, Opus, Sonnet or Haiku? How not to overpay for AI without losing quality — Zakhar Garan">
+<meta property="og:description" content="Zakhar Garan on which Claude model to pick for which task, and how to combine models in your workflow.">
+<meta property="og:url" content="https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/">
+<meta property="og:image" content="https://zakhargaran.com/zakhar-garan.jpg">
+<meta property="og:image:alt" content="Zakhar Garan (Гаран Захар)">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/#article",
+      "headline": "Fable, Opus, Sonnet or Haiku? How not to overpay for AI without losing quality",
+      "description": "Zakhar Garan on which Claude model to pick for which task, and how to combine models in your workflow.",
+      "inLanguage": "en",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "url": "https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/",
+      "mainEntityOfPage": "https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/",
+      "image": "https://zakhargaran.com/zakhar-garan.jpg",
+      "author": {
+        "@id": "https://zakhargaran.com/#person"
+      },
+      "publisher": {
+        "@id": "https://zakhargaran.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://zakhargaran.com/en/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Zakhar Garan",
+          "item": "https://zakhargaran.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://zakhargaran.com/en/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fable, Opus, Sonnet or Haiku? How not to overpay for AI without losing quality",
+          "item": "https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zakhargaran.com/#person",
+      "name": "Zakhar Garan",
+      "alternateName": [
+        "Захар Гаран",
+        "Гаран Захар",
+        "Zakhar Garan",
+        "Zakhar Haran"
+      ],
+      "url": "https://zakhargaran.com/"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="wrap">
+  <div class="topbar">
+    <a class="crumb" href="/en/blog/">← Blog</a>
+    <nav class="lang" aria-label="Language / Мова"><a href="/blog/fable-opus-sonnet-chy-haiku/" lang="uk">UA</a><a href="/en/blog/fable-opus-sonnet-or-haiku/" aria-current="page" lang="en">EN</a></nav>
+  </div>
+
+  <article class="article">
+    <header class="post-head">
+      <p class="eyebrow">Blog · Zakhar Garan</p>
+      <h1>Fable, Opus, Sonnet or Haiku? How not to overpay for AI without losing quality</h1>
+      <p class="byline">By: <a href="/en/" rel="author">Zakhar Garan</a> · <time datetime="2026-11-17">17 November 2026</time> · First published on <a href="https://www.linkedin.com/in/zakhargaran/recent-activity/all/">LinkedIn</a></p>
+    </header>
+    <p>Anthropic has released Claude Fable 5.2, so which model should you pick for which task?</p>
+    <ul class="points">
+      <li>Opus 5.5 is recommended as the default for complex code, at medium effort. If the result is weak, raise the effort level first and only then switch models: it is cheaper, and the cache is preserved.</li>
+      <li>Fable 5.2 is for large, fuzzy tasks where a mistake is expensive, such as rewriting the architecture of a whole product. Its tokens cost twice as much as Opus, but it plans on its own and tests as it goes.</li>
+      <li>Sonnet suits well-defined tasks where speed and budget matter most, such as a bug that is easy to reproduce. It costs half as much as Opus.</li>
+      <li>Haiku is for large volumes of routine work: sorting customer requests or writing short summaries.</li>
+    </ul>
+    <p>You can combine models. For example, Fable can lead the migration of a whole project to a new framework version and hand off updates of individual packages to Sonnet subagents.</p>
+    <p>Are you already combining different models in your work?</p>
+  </article>
+
+  <section class="author">
+    <img src="/zakhar-garan.jpg" width="400" height="400" alt="Zakhar Garan (Гаран Захар)">
+    <div>
+      <h2>About the author</h2>
+      <p><a href="/en/">Zakhar Garan (Гаран Захар)</a> is a Senior iOS Engineer and iOS Tech Lead from Ivano-Frankivsk, Ukraine, with 11+ years of native iOS development. He created <a href="/en/home-rate/">Home Rate</a>, a housing reviews app.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>More articles</h2>
+    <ul class="posts">
+      <li><a href="/en/blog/how-to-save-ai-tokens/">How to save AI tokens</a><span>Zakhar Garan&#x27;s practical tips for spending fewer tokens in Claude, Cursor and Codex without losing quality.</span></li>
+      <li><a href="/en/blog/ai-video-editing/">AI and video editing: how easy it has become</a><span>Zakhar Garan on editing video with an AI agent: Claude, CapCut, DaVinci Resolve and why MCP matters.</span></li>
+      <li><a href="/en/blog/fake-ai-income-stories/">Fake stories about AI making money on its own</a><span>Zakhar Garan on viral made-up stories about an AI agent “earning money by itself”, and why they often end with a webinar pitch.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 Zakhar Garan (also spelled Zakhar Haran)</p>
+    <p lang="uk">Гаран Захар, iOS-розробник, автор застосунку Home Rate. Івано-Франківськ.</p>
+  </footer>
+</main>
+</body>
+</html>

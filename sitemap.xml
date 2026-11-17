@@ -29,4 +29,74 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/home-rate/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/home-rate/"/>
   </url>
+  <url>
+    <loc>https://zakhargaran.com/blog/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/en/blog/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/blog/yak-ekonomyty-tokeny-shi/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/yak-ekonomyty-tokeny-shi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/how-to-save-ai-tokens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/yak-ekonomyty-tokeny-shi/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/en/blog/how-to-save-ai-tokens/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/yak-ekonomyty-tokeny-shi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/how-to-save-ai-tokens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/yak-ekonomyty-tokeny-shi/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/blog/shi-ta-montazh-video/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/shi-ta-montazh-video/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/ai-video-editing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/shi-ta-montazh-video/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/en/blog/ai-video-editing/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/shi-ta-montazh-video/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/ai-video-editing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/shi-ta-montazh-video/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/blog/feikovi-istorii-pro-zarobitok-shi/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/feikovi-istorii-pro-zarobitok-shi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/fake-ai-income-stories/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/feikovi-istorii-pro-zarobitok-shi/"/>
+  </url>
+  <url>
+    <loc>https://zakhargaran.com/en/blog/fake-ai-income-stories/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/feikovi-istorii-pro-zarobitok-shi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/fake-ai-income-stories/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/feikovi-istorii-pro-zarobitok-shi/"/>
+  </url>
 </urlset>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fable, Opus, Sonnet чи Haiku? Як не переплачувати за ШІ й не втрачати якість — Захар Гаран</title>
+<meta name="description" content="Захар Гаран про те, яку модель Claude брати під яке завдання і як поєднувати моделі в роботі.">
+<link rel="canonical" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/">
+<link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/">
+<link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/fable-opus-sonnet-or-haiku/">
+<link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fable, Opus, Sonnet чи Haiku? Як не переплачувати за ШІ й не втрачати якість — Захар Гаран">
+<meta property="og:description" content="Захар Гаран про те, яку модель Claude брати під яке завдання і як поєднувати моделі в роботі.">
+<meta property="og:url" content="https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/">
+<meta property="og:image" content="https://zakhargaran.com/zakhar-garan.jpg">
+<meta property="og:image:alt" content="Захар Гаран (Zakhar Garan)">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/#article",
+      "headline": "Fable, Opus, Sonnet чи Haiku? Як не переплачувати за ШІ й не втрачати якість",
+      "description": "Захар Гаран про те, яку модель Claude брати під яке завдання і як поєднувати моделі в роботі.",
+      "inLanguage": "uk",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "url": "https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/",
+      "mainEntityOfPage": "https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/",
+      "image": "https://zakhargaran.com/zakhar-garan.jpg",
+      "author": {
+        "@id": "https://zakhargaran.com/#person"
+      },
+      "publisher": {
+        "@id": "https://zakhargaran.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://zakhargaran.com/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Гаран Захар",
+          "item": "https://zakhargaran.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Блог",
+          "item": "https://zakhargaran.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fable, Opus, Sonnet чи Haiku? Як не переплачувати за ШІ й не втрачати якість",
+          "item": "https://zakhargaran.com/blog/fable-opus-sonnet-chy-haiku/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zakhargaran.com/#person",
+      "name": "Гаран Захар",
+      "alternateName": [
+        "Захар Гаран",
+        "Гаран Захар",
+        "Zakhar Garan",
+        "Zakhar Haran"
+      ],
+      "url": "https://zakhargaran.com/"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="wrap">
+  <div class="topbar">
+    <a class="crumb" href="/blog/">← Блог</a>
+    <nav class="lang" aria-label="Мова / Language"><a href="/blog/fable-opus-sonnet-chy-haiku/" aria-current="page" lang="uk">UA</a><a href="/en/blog/fable-opus-sonnet-or-haiku/" lang="en">EN</a></nav>
+  </div>
+
+  <article class="article">
+    <header class="post-head">
+      <p class="eyebrow">Блог · Захар Гаран</p>
+      <h1>Fable, Opus, Sonnet чи Haiku? Як не переплачувати за ШІ й не втрачати якість</h1>
+      <p class="byline">Автор: <a href="/" rel="author">Захар Гаран</a> · <time datetime="2026-11-17">17 листопада 2026</time> · Вперше опубліковано в <a href="https://www.linkedin.com/in/zakhargaran/recent-activity/all/">LinkedIn</a></p>
+    </header>
+    <p>Anthropic випустила Claude Fable 5.2, тож яку модель під яке завдання краще брати?</p>
+    <ul class="points">
+      <li>Opus 5.5 радять як модель за замовчуванням для складного коду, на середньому рівні зусиль. Якщо результат слабкий, спершу варто підняти рівень зусиль і тільки потім міняти модель: так дешевше, і кеш зберігається.</li>
+      <li>Fable 5.2 — для великих і розмитих завдань, де помилка дорого коштує, наприклад переписати архітектуру всього продукту. Токени вдвічі дорожчі, ніж в Opus, зате вона сама складає план і тестує по ходу.</li>
+      <li>Sonnet підходить для чітких завдань, де головне швидкість і бюджет, наприклад баг, який легко відтворити. Вона вдвічі дешевша за Opus.</li>
+      <li>Haiku — для великих обсягів рутини: сортувати звернення клієнтів чи робити короткі підсумки.</li>
+    </ul>
+    <p>Моделі можна поєднувати. Наприклад, Fable веде перехід усього проєкту на нову версію фреймворку, а оновлення окремих пакетів віддає субагентам на Sonnet.</p>
+    <p>А ви вже поєднуєте різні моделі в роботі?</p>
+  </article>
+
+  <section class="author">
+    <img src="/zakhar-garan.jpg" width="400" height="400" alt="Захар Гаран (Zakhar Garan)">
+    <div>
+      <h2>Про автора</h2>
+      <p><a href="/">Захар Гаран (Zakhar Garan)</a> — Senior iOS-інженер та iOS Tech Lead з Івано-Франківська, 11+ років нативної iOS-розробки. Автор застосунку <a href="/home-rate/">Home Rate: відгуки про житло</a>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Інші статті</h2>
+    <ul class="posts">
+      <li><a href="/blog/yak-ekonomyty-tokeny-shi/">Як економити токени ШІ</a><span>Практичні поради Захара Гарана, як витрачати менше токенів у Claude, Cursor і Codex і не втрачати якість.</span></li>
+      <li><a href="/blog/shi-ta-montazh-video/">ШІ та монтаж відео: наскільки зараз усе легко</a><span>Захар Гаран про монтаж відео з ШІ-агентом: Claude, CapCut, DaVinci Resolve і навіщо тут MCP.</span></li>
+      <li><a href="/blog/feikovi-istorii-pro-zarobitok-shi/">Фейкові історії про те, як ШІ сам заробляє гроші</a><span>Захар Гаран про популярні вигадані історії, як ШІ-агент «сам заробив», і чому за ними часто стоїть продаж вебінарів.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 Гаран Захар</p>
+    <p lang="en">Zakhar Garan (also spelled Zakhar Haran), Senior iOS Engineer and creator of Home Rate. Ivano-Frankivsk, Ukraine.</p>
+  </footer>
+</main>
+</body>
+</html>
