@@ -6,6 +6,9 @@
 <title>Гаран Захар (Zakhar Garan)</title>
 <meta name="description" content="Гаран Захар (Zakhar Garan) — iOS-розробник з Івано-Франківська, iOS Tech Lead, автор застосунку Home Rate: відгуки про житло та YouTube-каналу «iOS Українською».">
 <link rel="canonical" href="https://zakhargaran.com/">
+<link rel="alternate" hreflang="uk" href="https://zakhargaran.com/">
+<link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Гаран Захар (Zakhar Garan) — iOS-розробник, автор Home Rate">
 <meta property="og:description" content="Senior iOS-інженер, iOS Tech Lead, автор застосунку Home Rate: відгуки про житло.">
@@ -125,7 +128,7 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-
 .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
 
 /* Hero */
-.hero { padding: 72px 0 48px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; }
+.hero { padding: 40px 0 48px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; }
 .eyebrow { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--muted); letter-spacing: 0.02em; margin: 0 0 18px; }
 h1 {
   font-family: var(--font-display);
@@ -213,6 +216,12 @@ h2 {
 footer { padding: 32px 0 56px; color: var(--muted); font-size: 0.875rem; border-top: 1px solid var(--line); }
 footer p { margin: 0 0 6px; }
 
+/* Language switch */
+.lang { display: flex; justify-content: flex-end; gap: 6px; padding-top: 20px; font-family: var(--font-mono); font-size: 0.8125rem; }
+.lang a { color: var(--muted); text-decoration: none; padding: 2px 6px; border-radius: 6px; }
+.lang a:hover { color: var(--ink); }
+.lang a[aria-current="page"] { color: var(--ink); background: var(--accent-soft); }
+
 @media (max-width: 600px) {
   .hero { grid-template-columns: 1fr; padding-top: 48px; }
   .photo { order: -1; width: 112px; height: 112px; }
@@ -226,6 +235,7 @@ footer p { margin: 0 0 6px; }
 </head>
 <body>
 <main class="wrap">
+  <nav class="lang" aria-label="Мова / Language"><a href="./" aria-current="page" lang="uk">UA</a><a href="en/" lang="en">EN</a></nav>
 
   <header class="hero">
     <div>
