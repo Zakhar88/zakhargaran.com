@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zakhar Garan (Гаран Захар)</title>
+<meta name="description" content="Zakhar Garan (Гаран Захар) is an iOS developer from Ivano-Frankivsk, Ukraine, iOS Tech Lead and creator of Home Rate, an iPhone app with residents' reviews of buildings by address.">
+<link rel="canonical" href="https://zakhargaran.com/en/">
+<link rel="alternate" hreflang="uk" href="https://zakhargaran.com/">
+<link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Zakhar Garan — iOS developer, creator of Home Rate">
+<meta property="og:description" content="Senior iOS Engineer, iOS Tech Lead, creator of the Home Rate app.">
+<meta property="og:url" content="https://zakhargaran.com/en/">
+<meta property="og:image" content="https://zakhargaran.com/photo.jpg">
+<meta property="profile:first_name" content="Zakhar">
+<meta property="profile:last_name" content="Garan">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://zakhargaran.com/#person",
+  "name": "Zakhar Garan",
+  "alternateName": ["Гаран Захар", "Garan Zakhar", "Захар Гаран"],
+  "givenName": "Zakhar",
+  "familyName": "Garan",
+  "url": "https://zakhargaran.com/",
+  "image": "https://zakhargaran.com/photo.jpg",
+  "jobTitle": "Senior iOS Engineer, iOS Tech Lead",
+  "description": "iOS developer with 11+ years of experience (Swift, UIKit, Objective-C), creator of the Home Rate app.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ivano-Frankivsk",
+    "addressCountry": "UA"
+  },
+  "knowsAbout": ["iOS development", "Swift", "UIKit", "Objective-C", "Server-Driven UI", "AI-assisted development"],
+  "sameAs": [
+    "https://www.linkedin.com/in/zakhargaran",
+    "https://www.facebook.com/zakhar.garan",
+    "https://www.instagram.com/3axap.g/",
+    "https://dou.ua/users/garan-zahar-1/",
+    "https://www.youtube.com/@ios_in_ukrainian",
+    "https://www.youtube.com/@ХорошеКіно"
+  ],
+  "owns": { "@id": "https://zakhargaran.com/#homerate" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "@id": "https://zakhargaran.com/#homerate",
+  "name": "Home Rate: відгуки про житло",
+  "operatingSystem": "iOS",
+  "applicationCategory": "LifestyleApplication",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "url": "https://apps.apple.com/app/apple-store/id6799967606?pt=118886055&ct=website&mt=8",
+  "author": { "@id": "https://zakhargaran.com/#person" },
+  "sameAs": [
+    "https://www.instagram.com/homerate.app/",
+    "https://www.threads.com/@homerate.app",
+    "https://www.linkedin.com/company/homerate-app/",
+    "https://www.facebook.com/profile.php?id=61595516515319"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* Layout: one narrow reading column; the name in both scripts is the hero, Home Rate is the one filled panel. */
+:root {
+  --bg: #f3f5f2;
+  --surface: #ffffff;
+  --ink: #15201b;
+  --muted: #5a6a62;
+  --line: #d8e0da;
+  --accent: #1d7656;
+  --accent-soft: #e1efe7;
+  --on-accent: #ffffff;
+  --font-display: "Rubik", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Onest", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1512;
+    --surface: #16201b;
+    --ink: #e6eee9;
+    --muted: #98aba1;
+    --line: #26332d;
+    --accent: #5cc796;
+    --accent-soft: #1b2e25;
+    --on-accent: #0c1410;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1512;
+  --surface: #16201b;
+  --ink: #e6eee9;
+  --muted: #98aba1;
+  --line: #26332d;
+  --accent: #5cc796;
+  --accent-soft: #1b2e25;
+  --on-accent: #0c1410;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+/* Hero */
+.hero { padding: 40px 0 48px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--muted); letter-spacing: 0.02em; margin: 0 0 18px; }
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 9vw, 4.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin: 0;
+  text-wrap: balance;
+}
+.latin {
+  font-family: var(--font-mono);
+  font-size: clamp(1rem, 2.6vw, 1.25rem);
+  color: var(--accent);
+  margin: 14px 0 0;
+  letter-spacing: 0.04em;
+}
+.photo {
+  width: 168px; height: 168px; border-radius: 50%;
+  object-fit: cover;
+  background: var(--accent-soft);
+  border: 4px solid var(--surface);
+  box-shadow: 0 0 0 1px var(--line);
+  display: block;
+}
+.lead { max-width: 62ch; font-size: 1.1875rem; margin: 0 0 28px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 12px 20px; border-radius: 999px;
+  font-weight: 600; font-size: 0.975rem; text-decoration: none;
+  border: 1px solid var(--line); color: var(--ink); background: var(--surface);
+  transition: transform .15s ease, border-color .15s ease;
+}
+.btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+.btn.primary { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+
+/* Sections */
+section { padding: 40px 0; border-top: 1px solid var(--line); }
+h2 {
+  font-family: var(--font-display); font-weight: 500;
+  font-size: 1.375rem; letter-spacing: -0.01em; margin: 0 0 20px;
+}
+.label { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px; }
+
+/* Home Rate panel */
+.app {
+  background: var(--accent-soft);
+  border-radius: 24px;
+  padding: 28px;
+  display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: start;
+}
+.app-icon { width: 88px; height: 88px; border-radius: 22px; display: block; }
+.app h3 { font-family: var(--font-display); font-weight: 500; font-size: 1.25rem; margin: 0 0 8px; letter-spacing: -0.01em; }
+.app p { margin: 0 0 16px; max-width: 58ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; padding: 0; list-style: none; }
+.facts li { font-family: var(--font-mono); font-size: 0.8125rem; padding: 4px 10px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); }
+
+/* Experience */
+.stack { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; padding: 0; list-style: none; }
+.stack li { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--accent); border: 1px solid var(--line); border-radius: 6px; padding: 3px 9px; }
+.points { margin: 0; padding-left: 1.1em; max-width: 64ch; }
+.points li { margin-bottom: 8px; }
+
+/* Channels */
+.channels { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.channel {
+  display: block; padding: 20px; border-radius: 16px;
+  border: 1px solid var(--line); background: var(--surface);
+  text-decoration: none; color: var(--ink);
+  transition: border-color .15s ease;
+}
+.channel:hover { border-color: var(--accent); }
+.channel strong { display: block; font-size: 1.0625rem; margin-bottom: 4px; }
+.channel span { color: var(--muted); font-size: 0.9375rem; }
+.channel em { display: block; font-style: normal; font-family: var(--font-mono); font-size: 0.8125rem; color: var(--accent); margin-top: 10px; }
+
+/* Links */
+.links { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+.links li { display: flex; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.links .k { color: var(--muted); }
+.links a { text-decoration: none; font-weight: 500; overflow-wrap: anywhere; text-align: right; }
+.links a:hover { text-decoration: underline; }
+
+footer { padding: 32px 0 56px; color: var(--muted); font-size: 0.875rem; border-top: 1px solid var(--line); }
+footer p { margin: 0 0 6px; }
+
+/* Language switch */
+.lang { display: flex; justify-content: flex-end; gap: 6px; padding-top: 20px; font-family: var(--font-mono); font-size: 0.8125rem; }
+.lang a { color: var(--muted); text-decoration: none; padding: 2px 6px; border-radius: 6px; }
+.lang a:hover { color: var(--ink); }
+.lang a[aria-current="page"] { color: var(--ink); background: var(--accent-soft); }
+
+@media (max-width: 600px) {
+  .hero { grid-template-columns: 1fr; padding-top: 48px; }
+  .photo { order: -1; width: 112px; height: 112px; }
+  .app { grid-template-columns: 1fr; padding: 22px; }
+  .channels, .links { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <nav class="lang" aria-label="Language / Мова"><a href="../" lang="uk">UA</a><a href="./" aria-current="page" lang="en">EN</a></nav>
+
+  <header class="hero">
+    <div>
+      <p class="eyebrow">iOS developer · Ivano-Frankivsk, Ukraine</p>
+      <h1>Zakhar<br>Garan</h1>
+      <p class="latin">Гаран Захар</p>
+    </div>
+    <img class="photo" src="../photo.jpg" width="640" height="640" alt="Zakhar Garan (Гаран Захар)">
+  </header>
+
+  <p class="lead">Senior iOS Engineer and iOS Tech Lead. For over 11 years I have built native iPhone apps with Swift, Objective-C and UIKit, mostly in healthcare and consumer products. I created Home Rate, an app with residents' reviews of where they live.</p>
+  <div class="actions">
+    <a class="btn primary" href="https://apps.apple.com/app/apple-store/id6799967606?pt=118886055&amp;ct=website_en&amp;mt=8">Home Rate on the App Store</a>
+    <a class="btn" href="https://www.linkedin.com/in/zakhargaran">LinkedIn</a>
+  </div>
+
+  <section id="home-rate" style="margin-top:48px">
+    <p class="label">My app</p>
+    <div class="app">
+      <svg class="app-icon" viewBox="0 0 88 88" aria-hidden="true">
+        <rect width="88" height="88" rx="22" fill="#1d7656"/>
+        <path d="M20 44 L44 23 L68 44" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M27 40 V66 H61 V40" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M44 60 C36 54 33 50 33 46.5 C33 43.5 35.3 41.5 38 41.5 C40.3 41.5 42.2 42.8 44 45 C45.8 42.8 47.7 41.5 50 41.5 C52.7 41.5 55 43.5 55 46.5 C55 50 52 54 44 60 Z" fill="#fff"/>
+      </svg>
+      <div>
+        <h3>Home Rate: відгуки про житло</h3>
+        <p>A free iPhone app where residents review their apartment buildings. Find an address on the map and learn whether you can hear the neighbours, how the lift works and where the nearest shelter is, before you rent or buy. You can review your own building too, anonymously if you prefer. The app is in Ukrainian.</p>
+        <ul class="facts">
+          <li>reviews by address</li>
+          <li>every review moderated</li>
+          <li>no ads</li>
+          <li>iPhone</li>
+        </ul>
+        <a class="btn primary" href="https://apps.apple.com/app/apple-store/id6799967606?pt=118886055&amp;ct=website_en&amp;mt=8">Download on the App Store</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul class="stack">
+      <li>Swift</li><li>UIKit</li><li>Objective-C</li><li>Server-Driven UI</li><li>Xcode</li><li>AI-assisted development</li>
+    </ul>
+    <ul class="points">
+      <li>11+ years of native iOS development as Senior iOS Engineer and iOS Tech Lead.</li>
+      <li>Large US virtual-healthcare app (~50K launches per day): fully server-driven UI, new SDUI components, a backend-driven rules engine for UI behaviour.</li>
+      <li>Main code reviewer, releases on a two-week cycle, crash rate below 0.5%.</li>
+      <li>Built Home Rate on my own, from code to release and promotion, with an AI-assisted workflow.</li>
+    </ul>
+  </section>
+
+  <section id="youtube">
+    <h2>YouTube</h2>
+    <div class="channels">
+      <a class="channel" href="https://www.youtube.com/@ios_in_ukrainian">
+        <strong>iOS Українською</strong>
+        <span>Swift and UIKit lessons in Ukrainian, from zero to your first app.</span>
+        <em>@ios_in_ukrainian</em>
+      </a>
+      <a class="channel" href="https://www.youtube.com/@ХорошеКіно">
+        <strong>Хороше Кіно</strong>
+        <span>A channel about films.</span>
+        <em>@ХорошеКіно</em>
+      </a>
+    </div>
+  </section>
+
+  <section id="links">
+    <h2>Find me</h2>
+    <ul class="links">
+      <li><span class="k">LinkedIn</span><a href="https://www.linkedin.com/in/zakhargaran">zakhargaran</a></li>
+      <li><span class="k">Facebook</span><a href="https://www.facebook.com/zakhar.garan">zakhar.garan</a></li>
+      <li><span class="k">Instagram</span><a href="https://www.instagram.com/3axap.g/">3axap.g</a></li>
+      <li><span class="k">DOU</span><a href="https://dou.ua/users/garan-zahar-1/">garan-zahar-1</a></li>
+      <li><span class="k">Home Rate</span><a href="https://www.instagram.com/homerate.app/">@homerate.app</a></li>
+      <li><span class="k">Email</span><a href="mailto:g3axap@gmail.com">g3axap@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 Zakhar Garan</p>
+    <p lang="uk">Гаран Захар, iOS-розробник, автор застосунку Home Rate. Івано-Франківськ.</p>
+  </footer>
+
+</main>
+</body>
+</html>
