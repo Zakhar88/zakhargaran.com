@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The main bottleneck in the age of AI coding is the pull request - Zakhar Garan</title>
+<meta name="description" content="Zakhar Garan on why pull request review has become the bottleneck of AI-assisted development, and how agents take over the first review pass.">
+<link rel="canonical" href="https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/">
+<link rel="alternate" hreflang="uk" href="https://zakhargaran.com/blog/pull-request-vuzke-mistse-shi/">
+<link rel="alternate" hreflang="en" href="https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/">
+<link rel="alternate" hreflang="x-default" href="https://zakhargaran.com/blog/pull-request-vuzke-mistse-shi/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The main bottleneck in the age of AI coding is the pull request - Zakhar Garan">
+<meta property="og:description" content="Zakhar Garan on why pull request review has become the bottleneck of AI-assisted development, and how agents take over the first review pass.">
+<meta property="og:url" content="https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/">
+<meta property="og:image" content="https://zakhargaran.com/zakhar-garan.jpg">
+<meta property="og:image:alt" content="Zakhar Garan (Гаран Захар)">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/#article",
+      "headline": "The main bottleneck in the age of AI coding is the pull request",
+      "description": "Zakhar Garan on why pull request review has become the bottleneck of AI-assisted development, and how agents take over the first review pass.",
+      "inLanguage": "en",
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
+      "url": "https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/",
+      "mainEntityOfPage": "https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/",
+      "image": "https://zakhargaran.com/zakhar-garan.jpg",
+      "author": {
+        "@id": "https://zakhargaran.com/#person"
+      },
+      "publisher": {
+        "@id": "https://zakhargaran.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://zakhargaran.com/en/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Zakhar Garan",
+          "item": "https://zakhargaran.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://zakhargaran.com/en/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The main bottleneck in the age of AI coding is the pull request",
+          "item": "https://zakhargaran.com/en/blog/pull-request-bottleneck-ai-coding/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zakhargaran.com/#person",
+      "name": "Zakhar Garan",
+      "alternateName": [
+        "Захар Гаран",
+        "Гаран Захар",
+        "Zakhar Garan",
+        "Zakhar Haran"
+      ],
+      "url": "https://zakhargaran.com/"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="wrap">
+  <div class="topbar">
+    <a class="crumb" href="/en/blog/">← Blog</a>
+    <nav class="lang" aria-label="Language / Мова"><a href="/blog/pull-request-vuzke-mistse-shi/" lang="uk">UA</a><a href="/en/blog/pull-request-bottleneck-ai-coding/" aria-current="page" lang="en">EN</a></nav>
+  </div>
+
+  <article class="article">
+    <header class="post-head">
+      <p class="eyebrow">Blog · Zakhar Garan</p>
+      <h1>The main bottleneck in the age of AI coding is the pull request</h1>
+      <p class="byline">By: <a href="/en/" rel="author">Zakhar Garan</a> · <time datetime="2026-11-24">24 November 2026</time> · First published on <a href="https://www.linkedin.com/in/zakhargaran/recent-activity/all/">LinkedIn</a></p>
+    </header>
+    <p>AI has learned to write code in minutes, and now teams have run into a different problem: there is no one to read it. When the pull request queue grows faster than engineers can work through it, review turns into a formality. People simply stop reading huge PRs carefully.</p>
+    <p>In its new playbook, Anthropic pointed out the obvious: if an agent generates the code, an agent should also do the first review. In this model, review works both ways.</p>
+    <p>A separate agent with a clean context takes over the routine: it looks for logic errors and checks edge cases, security and compliance with the repo's rules. If another agent wrote the code, that agent can make the fixes itself and update the branch before the notification even reaches the engineer. One strict rule applies: an agent never approves its own work and cannot merge code to production on its own.</p>
+    <p>As a result, the engineer no longer hunts for small bugs. Their focus moves to where machines are still helpless: assessing architectural risks and making sure the solution does exactly what the business needs.</p>
+    <p>I wonder whether anyone has already set up a pipeline like this, or are you all still going through AI assistants' diffs by hand?</p>
+  </article>
+
+  <section class="author">
+    <img src="/zakhar-garan.jpg" width="400" height="400" alt="Zakhar Garan (Гаран Захар)">
+    <div>
+      <h2>About the author</h2>
+      <p><a href="/en/">Zakhar Garan (Гаран Захар)</a> is a Senior iOS Engineer and iOS Tech Lead from Ivano-Frankivsk, Ukraine, with 11+ years of native iOS development. He created <a href="/en/home-rate/">Home Rate</a>, a housing reviews app.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>More articles</h2>
+    <ul class="posts">
+      <li><a href="/en/blog/how-to-save-ai-tokens/">How to save AI tokens</a><span>Zakhar Garan&#x27;s practical tips for spending fewer tokens in Claude, Cursor and Codex without losing quality.</span></li>
+      <li><a href="/en/blog/fable-opus-sonnet-or-haiku/">Fable, Opus, Sonnet or Haiku? How not to overpay for AI without losing quality</a><span>Zakhar Garan on which Claude model to pick for which task, and how to combine models in your workflow.</span></li>
+      <li><a href="/en/blog/ai-video-editing/">AI and video editing: how easy it has become</a><span>Zakhar Garan on editing video with an AI agent: Claude, CapCut, DaVinci Resolve and why MCP matters.</span></li>
+      <li><a href="/en/blog/fake-ai-income-stories/">Fake stories about AI making money on its own</a><span>Zakhar Garan on viral made-up stories about an AI agent “earning money by itself”, and why they often end with a webinar pitch.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 Zakhar Garan (also spelled Zakhar Haran)</p>
+    <p lang="uk">Гаран Захар, iOS-розробник, автор застосунку Home Rate. Івано-Франківськ.</p>
+  </footer>
+</main>
+</body>
+</html>
